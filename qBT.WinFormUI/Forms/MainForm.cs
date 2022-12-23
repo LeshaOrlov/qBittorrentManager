@@ -23,7 +23,7 @@ namespace FormsApp
             this.ShowInTaskbar = false;
             this.WindowState = FormWindowState.Minimized;
 
-            notifyIcon1.Icon = new Icon("qBittorent.ico");
+            notifyIcon1.Icon = new Icon("Resourses/qBittorent.ico");
             notifyIcon1.Visible = true;
             notifyIcon1.ContextMenuStrip = contextMenuStrip1;
             Options options = OptionsManager.GetOptions();
